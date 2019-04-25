@@ -1,0 +1,196 @@
+2019-04-25T14:54:03+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:54:08+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:54:21+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:55:13+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:55:26+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:57:35+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:57:56+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:58:06+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:58:41+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:58:50+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:58:52+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T14:58:56+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T15:00:06+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
+2019-04-25T15:02:07+00:00 CRITICAL Uncaught Error: Class 'Thachpham_Widget' not found in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php:100
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/widgets.php(115): WP_Widget_Factory->register('Thachpham_Widge...')
+#1 /var/www/html/fashion/wp-content/plugins/video.php(100): register_widget('Thachpham_Widge...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): create_thachpham_widget('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-includes/widgets.php(1649): do_action('widgets_init')
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_widgets_init('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#8 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#9 /var/www/html/fashion/wp-settings.php(450): do_action('init')
+#10 /var/www/html/f in /var/www/html/fashion/wp-includes/class-wp-widget-factory.php on line 100
+
