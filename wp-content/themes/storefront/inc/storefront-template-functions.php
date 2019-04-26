@@ -159,12 +159,14 @@ if ( ! function_exists( 'storefront_header_widget_region' ) ) {
 	 * @since  1.0.0
 	 */
 	function storefront_header_widget_region() {
+		if(!(is_home() || is_front_page())) return;
 		if ( is_active_sidebar( 'header-1' ) ) {
 			?>
+			
 		<div class="header-widget-region" role="complementary">
-			<div class="col-full">
+			<!-- <div class="col-full"> -->
 				<?php dynamic_sidebar( 'header-1' ); ?>
-			</div>
+			<!-- </div> -->
 		</div>
 			<?php
 		}
@@ -305,7 +307,7 @@ if ( ! function_exists( 'storefront_homepage_header' ) ) {
 		?>
 		<header class="entry-header">
 			<?php
-			the_title( '<h1 class="entry-title">', '</h1>' );
+			#the_title( '<h1 class="entry-title">', '</h1>' );
 			?>
 		</header><!-- .entry-header -->
 		<?php

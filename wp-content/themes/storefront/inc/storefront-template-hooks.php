@@ -11,7 +11,9 @@
  * @see  storefront_header_widget_region()
  * @see  storefront_get_sidebar()
  */
-add_action( 'storefront_before_content', 'storefront_header_widget_region', 10 );
+// if(is_home() || is_front_page()){
+    add_action( 'storefront_before_content', 'storefront_header_widget_region', 10 );
+// }
 add_action( 'storefront_sidebar', 'storefront_get_sidebar', 10 );
 
 /**

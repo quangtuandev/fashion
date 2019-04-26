@@ -256,7 +256,7 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 				'columns'          => 5,
 				'child_categories' => 0,
 				'orderby'          => 'name',
-				'title'            => __( 'Shop by Category', 'storefront' ),
+				'title'            => __( 'BEST COLLETTION & FASHION ITEMS', 'storefront' ),
 			)
 		);
 
@@ -279,7 +279,7 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 
 			do_action( 'storefront_homepage_before_product_categories' );
 
-			echo '<h2 class="section-title">' . wp_kses_post( $args['title'] ) . '</h2>';
+			echo '<h2 class="section-title pemission">' . wp_kses_post( $args['title'] ) . '</h2>';
 
 			do_action( 'storefront_homepage_after_product_categories_title' );
 
@@ -304,11 +304,11 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 	function storefront_recent_products( $args ) {
 		$args = apply_filters(
 			'storefront_recent_products_args', array(
-				'limit'   => 4,
-				'columns' => 4,
+				'limit'   => 10,
+				'columns' => 5,
 				'orderby' => 'date',
 				'order'   => 'desc',
-				'title'   => __( 'New In', 'storefront' ),
+				'title'   => __( 'Sản phẩm mới', 'storefront' ),
 			)
 		);
 
@@ -410,11 +410,11 @@ if ( ! function_exists( 'storefront_popular_products' ) ) {
 	function storefront_popular_products( $args ) {
 		$args = apply_filters(
 			'storefront_popular_products_args', array(
-				'limit'   => 4,
-				'columns' => 4,
+				'limit'   => 10,
+				'columns' => 5,
 				'orderby' => 'rating',
 				'order'   => 'desc',
-				'title'   => __( 'Fan Favorites', 'storefront' ),
+				'title'   => __( 'Được yêu thích', 'storefront' ),
 			)
 		);
 
@@ -462,12 +462,12 @@ if ( ! function_exists( 'storefront_on_sale_products' ) ) {
 	function storefront_on_sale_products( $args ) {
 		$args = apply_filters(
 			'storefront_on_sale_products_args', array(
-				'limit'   => 4,
-				'columns' => 4,
+				'limit'   => 5,
+				'columns' => 5,
 				'orderby' => 'date',
 				'order'   => 'desc',
 				'on_sale' => 'true',
-				'title'   => __( 'On Sale', 'storefront' ),
+				'title'   => __( 'Đang khuyến mãi', 'storefront' ),
 			)
 		);
 
@@ -520,7 +520,7 @@ if ( ! function_exists( 'storefront_best_selling_products' ) ) {
 				'columns' => 4,
 				'orderby' => 'popularity',
 				'order'   => 'desc',
-				'title'   => esc_attr__( 'Best Sellers', 'storefront' ),
+				'title'   => esc_attr__( 'Bán chạy nhất', 'storefront' ),
 			)
 		);
 

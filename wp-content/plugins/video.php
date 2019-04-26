@@ -18,7 +18,7 @@ class Video_Widget extends WP_Widget {
 	 */
 	function Video_Widget() {
 		$tpwidget_options = array(
-			'classname' => 'video_widget_class', //ID của widget
+			'classname' => 'video_widget_class col-full', //ID của widget
 			'description' => 'video trang home'
 		);
 		$this->WP_Widget('video_widget_id', 'Video Widget', $tpwidget_options);
@@ -31,8 +31,8 @@ class Video_Widget extends WP_Widget {
 		
 		//Biến tạo các giá trị mặc định trong form
 		$default = array(
-            'link_1' => 'https://youtu.be/QCdckwT8aiQ',
-            'link_2' => 'https://youtu.be/J4XhvcS_pCE',
+            'link_1' => 'QCdckwT8aiQ',
+            'link_2' => 'J4XhvcS_pCE',
 		);
 		
 		//Gộp các giá trị trong mảng $default vào biến $instance để nó trở thành các giá trị mặc định
@@ -43,8 +43,8 @@ class Video_Widget extends WP_Widget {
 		$link_1 = esc_attr( $instance['link_1'] );
 		
 		//Hiển thị form trong option của widget
-        echo "<p>Link youtube <input type='text' class='widefat' name='".$this->get_field_name('link_1')."' value='".$link_1."' /></p>";
-		echo "<p>Link youtube <input type='text' class='widefat' name='".$this->get_field_name('link_2')."' value='".$link_2."' /></p>";        
+        echo "<p>nhập id của video youtube <input type='text' class='widefat' name='".$this->get_field_name('link_1')."' value='".$link_1."' /></p>";
+		echo "<p>nhập id của video youtube <input type='text' class='widefat' name='".$this->get_field_name('link_2')."' value='".$link_2."' /></p>";        
 		
 		
 	}
@@ -75,13 +75,13 @@ class Video_Widget extends WP_Widget {
 		
 		//In tiêu đề widget
 		echo $before_title.$title.$after_title;
-		
-        // Nội dung trong widget
+
+		// Nội dung trong widget
         ?>
 		<div class="video_home">
 				<h3><a href="http://megafashion.vn/category/thoi-trang-nu-id50">VIDEO Megafashion Collection</a></h3>
-		<iframe width="592" height="333" src="https://www.youtube.com/embed/QCdckwT8aiQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		<iframe style="float: right;" width="592" height="333" src="https://www.youtube.com/embed/J4XhvcS_pCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe width="592" height="333" src="https://www.youtube.com/embed/<?php echo $instance['link_1']?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<iframe style="float: right;" width="592" height="333" src="https://www.youtube.com/embed/<?php echo $instance['link_2']?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>
 <?php
 		

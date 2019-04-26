@@ -1150,7 +1150,7 @@ if ( ! function_exists( 'woocommerce_template_loop_product_link_open' ) ) {
 
 		$link = apply_filters( 'woocommerce_loop_product_link', get_the_permalink(), $product );
 
-		echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
+		echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link scale-fix woocommerce-loop-product__link">';
 	}
 }
 
@@ -1270,7 +1270,11 @@ if ( ! function_exists( 'woocommerce_template_loop_product_thumbnail' ) ) {
 	 * Get the product thumbnail for the loop.
 	 */
 	function woocommerce_template_loop_product_thumbnail() {
-		echo woocommerce_get_product_thumbnail(); // WPCS: XSS ok.
+		echo woocommerce_get_product_thumbnail( 'woocommerce_thumbnail', 350, 750); // WPCS: XSS ok.
+		echo '</a>';
+		$link = apply_filters( 'woocommerce_loop_product_link', get_the_permalink(), $product );
+
+		echo '<a href="' . esc_url( $link ) . '" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">';
 	}
 }
 if ( ! function_exists( 'woocommerce_template_loop_price' ) ) {
