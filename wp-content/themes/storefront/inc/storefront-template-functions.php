@@ -660,6 +660,13 @@ if ( ! function_exists( 'storefront_header_container' ) ) {
 	 * The header container
 	 */
 	function storefront_header_container() {
+		?>
+		<div class="col-full">
+			<div class="social_icon_header">
+				<span>Add: 26 Hồ Văn Huê - Phường 9 - Quận Phú Nhuận - Tp HCM. Hotline: 0938.228.365 (Call/Zalo)</span>
+			</div>
+		</div>
+		<?php
 		echo '<div class="col-full">';
 	}
 }

@@ -21,6 +21,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 if ( $upsells ) : ?>
 
+<?php
+return;
+?>
 	<section class="up-sells upsells products">
 
 		<h2><?php esc_html_e( 'You may also like&hellip;', 'woocommerce' ); ?></h2>

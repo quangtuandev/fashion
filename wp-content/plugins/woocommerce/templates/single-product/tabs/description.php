@@ -26,7 +26,18 @@ $heading = esc_html( apply_filters( 'woocommerce_product_description_heading', _
 ?>
 
 <?php if ( $heading ) : ?>
-  <h2><?php echo $heading; ?></h2>
+  <!-- <h2><?php echo $heading; ?></h2> -->
 <?php endif; ?>
 
 <?php the_content(); ?>
+
+<img src="<?php echo get_the_post_thumbnail_url($post->ID); ?>" class="img-responsive" alt=""/>
+<?php
+global $product;
+
+$attachment_ids = $product->get_gallery_attachment_ids();
+
+foreach( $attachment_ids as $attachment_id ) {
+    echo $image_link = wp_get_attachment_url( $attachment_id );
+}
+?>

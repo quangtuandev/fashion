@@ -1,0 +1,35 @@
+2019-04-27T15:59:06+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php:29
+Stack trace:
+#0 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1498): wc_get_template('single-product/...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): woocommerce_output_product_data_tabs('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-content/plugins/woocommerce/templates/content-single-product.php(72): do_action('woocommerce_aft...')
+#6 /var/www/html/fashion/wp-includes/template.php(690): require('/var/www/html/f...')
+#7 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/f...', fa in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php on line 29
+
+2019-04-27T15:59:55+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php:29
+Stack trace:
+#0 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1498): wc_get_template('single-product/...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): woocommerce_output_product_data_tabs('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-content/plugins/woocommerce/templates/content-single-product.php(72): do_action('woocommerce_aft...')
+#6 /var/www/html/fashion/wp-includes/template.php(690): require('/var/www/html/f...')
+#7 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/f...', fa in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php on line 29
+
+2019-04-27T16:00:06+00:00 CRITICAL Uncaught Error: Call to undefined function dd() in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php:29
+Stack trace:
+#0 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1498): wc_get_template('single-product/...')
+#2 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): woocommerce_output_product_data_tabs('')
+#3 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#4 /var/www/html/fashion/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#5 /var/www/html/fashion/wp-content/plugins/woocommerce/templates/content-single-product.php(72): do_action('woocommerce_aft...')
+#6 /var/www/html/fashion/wp-includes/template.php(690): require('/var/www/html/f...')
+#7 /var/www/html/fashion/wp-content/plugins/woocommerce/includes/wc-core-functions.php(195): load_template('/var/www/html/f...', fa in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php on line 29
+
+2019-04-27T16:06:13+00:00 CRITICAL syntax error, unexpected ';' in /var/www/html/fashion/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php on line 35
+

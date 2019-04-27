@@ -189,8 +189,8 @@ if ( ! class_exists( 'Storefront_WooCommerce' ) ) :
 		public function related_products_args( $args ) {
 			$args = apply_filters(
 				'storefront_related_products_args', array(
-					'posts_per_page' => 3,
-					'columns'        => 3,
+					'posts_per_page' => 12,
+					'columns'        => 6,
 				)
 			);
 

@@ -339,7 +339,13 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 
 			do_action( 'storefront_homepage_after_recent_products' );
 
-			echo '</section>';
+			echo '</section></main></div></div>';
+
+		
+			dynamic_sidebar( 'my-new-widget' );
+
+			echo '<div class="col-full"><div class="woocommerce"></div><div  class="content-area"><main class="site-main" role="main">';
+
 		}
 	}
 }
@@ -520,7 +526,7 @@ if ( ! function_exists( 'storefront_best_selling_products' ) ) {
 				'columns' => 4,
 				'orderby' => 'popularity',
 				'order'   => 'desc',
-				'title'   => esc_attr__( 'Bán chạy nhất', 'storefront' ),
+				'title'   => esc_attr__( 'Sản phẩm bán chạy nhất', 'storefront' ),
 			)
 		);
 

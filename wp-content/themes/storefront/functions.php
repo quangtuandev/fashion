@@ -71,3 +71,16 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
  * Note: Do not add any custom code here. Please use a custom plugin so that your customizations aren't lost during updates.
  * https://github.com/woocommerce/theme-customisations
  */
+function custom_sidebar() {
+	$args = array(
+		'id' => 'my-new-widget',
+		'name' => __( 'My New Widget', 'text_domain' ),
+		'description' => __( 'This is my widget description.', 'text_domain' ),
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget' => '</section>',
+		);
+		register_sidebar( $args );
+	}
+	add_action( 'widgets_init', 'custom_sidebar' );
