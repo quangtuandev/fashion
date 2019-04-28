@@ -27,7 +27,21 @@ echo wc_get_stock_html( $product ); // WPCS: XSS ok.
 
 if ( $product->is_in_stock() ) : ?>
 
+<button id="myBtn">Open Modal</button>
 	<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
 
 	<form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
@@ -48,7 +62,13 @@ if ( $product->is_in_stock() ) : ?>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 	</form>
+    </div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
 
+</div>
 	<?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>
 
 <?php endif; ?>

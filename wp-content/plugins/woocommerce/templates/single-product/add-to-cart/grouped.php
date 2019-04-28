@@ -20,6 +20,20 @@ defined( 'ABSPATH' ) || exit;
 global $product, $post;
 
 do_action( 'woocommerce_before_add_to_cart_form' ); ?>
+<button id="myBtn">Open Modal</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="modal-header">
+      <span class="close">&times;</span>
+      <h2>Modal Header</h2>
+    </div>
+    <div class="modal-body">
+      <p>Some text in the Modal Body</p>
+      <p>Some other text...</p>
 
 <form class="cart grouped_form" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 	<table cellspacing="0" class="woocommerce-grouped-product-list group_table">
@@ -106,5 +120,11 @@ do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 	<?php endif; ?>
 </form>
+</div>
+    <div class="modal-footer">
+      <h3>Modal Footer</h3>
+    </div>
+  </div>
 
+</div>
 <?php do_action( 'woocommerce_after_add_to_cart_form' ); ?>

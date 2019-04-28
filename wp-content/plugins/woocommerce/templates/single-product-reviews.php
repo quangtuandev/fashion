@@ -63,7 +63,7 @@ if ( ! comments_open() ) {
 			endif;
 			?>
 		<?php else : ?>
-			<p class="woocommerce-noreviews"><?php esc_html_e( 'There are no reviews yet.', 'woocommerce' ); ?></p>
+			<p class="woocommerce-noreviews"><?php esc_html_e( 'Hiện tại không có đánh giá nào.', 'woocommerce' ); ?></p>
 		<?php endif; ?>
 	</div>
 
