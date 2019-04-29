@@ -167,7 +167,7 @@ All sizing (typography, layout, padding/margins, etc) are inspired by a modular 
  ul.fashion-social a {
      display: inline-block;
  }
- /* sp nÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚Â»ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Âi bÃƒÆ’Ã‚Â¡Ãƒâ€šÃ‚ÂºÃƒâ€šÃ‚Â­t */
+ /* sp nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âi bÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­t */
  
  section.storefront-product-section.storefront-recent-products,
  section.storefront-product-section.storefront-popular-products,
@@ -190,8 +190,8 @@ All sizing (typography, layout, padding/margins, etc) are inspired by a modular 
      font-weight: 400;
      letter-spacing: 5px;
      padding-left: 30px;
-     padding-top: 15px;
-     padding-bottom: 15px;
+     padding-top: 10px;
+     padding-bottom: 10px;
      padding-right: 30px;
      margin-left: 0px;
      background: #000;
@@ -478,6 +478,9 @@ section#media_image-4 {
     color: #8e0303;
     font-size: 30px;
     font-weight: 400;
+    float: right;
+    display: block;
+    width: 100%;
 }
 
 .single-product .woocommerce-product-details__short-description {
@@ -590,7 +593,7 @@ section.related.products {clear:both;background-color: lightyellow;padding: 0 10
     position: absolute;
     top: 50%;
     background-color: #fefefe;
-    width: 50%;
+    width: 410px;
     -webkit-animation-name: slideIn;
     -webkit-animation-duration: 0.4s;
     animation-name: slideIn;
@@ -619,12 +622,12 @@ section.related.products {clear:both;background-color: lightyellow;padding: 0 10
   }
   
   .modal-header {
-    padding: 2px 16px;
+    /* padding: 2px 16px; */
     background-color: #5cb85c;
     color: white;
   }
   
-  .modal-body {padding: 2px 16px;}
+  .modal-body {padding: 2px 16px;border: 1px solid #999;margin:25px; margin-top:0;border-top:none; padding-top:15px;}
   
   .modal-footer {
     padding: 2px 16px;
@@ -651,4 +654,57 @@ section.related.products {clear:both;background-color: lightyellow;padding: 0 10
   @keyframes fadeIn {
     from {opacity: 0} 
     to {opacity: 1}
-  }
+  }img.img-popup {
+    width: 75px;
+    display: inline-block;
+}.modal-header h2 {
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+        color: #650101;
+        background:#e3bf5e;
+}
+
+.modal-header {
+    margin: 0;
+    position: relative;
+    padding: 0;
+}
+
+span.close {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #000;
+    display: block;
+    border: 1px solid #000;
+    line-height: 0.7;
+    padding: 2px 6px;
+    border-radius: 50%;
+    outline: none;
+    background: #fff;
+}.modal-body-inf {
+    display: table;
+}
+
+span.pop-title,span.pop-price {
+    display: block;
+    vertical-align: top;
+    margin-left: 15px;
+}.popup {
+    display: table-cell;
+    vertical-align: middle;
+}button.single_add_to_cart_button.button.alt {
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+}
+
+.single-product div.product form.cart .quantity {
+    clear: both;
+    display: inline-block;
+    margin-bottom: 10px;
+}

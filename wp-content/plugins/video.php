@@ -79,7 +79,7 @@ class Video_Widget extends WP_Widget {
 		// Nội dung trong widget
         ?>
 		<div class="video_home">
-				<h3><a href="http://megafashion.vn/category/thoi-trang-nu-id50">VIDEO Megafashion Collection</a></h3>
+				<h3><a href="http://megafashion.vn/category/thoi-trang-nu-id50">VIDEO OLGAFASHION Collection</a></h3>
 		<iframe width="592" height="333" src="https://www.youtube.com/embed/<?php echo $instance['link_1']?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		<iframe style="float: right;" width="592" height="333" src="https://www.youtube.com/embed/<?php echo $instance['link_2']?>" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	</div>

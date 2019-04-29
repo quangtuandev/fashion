@@ -15,12 +15,13 @@
  * @see  storefront_on_sale_products()
  * @see  storefront_best_selling_products()
  */
-add_action( 'homepage', 'storefront_recent_products', 20 );
+add_action( 'homepage', 'storefront_popular_products', 20 );
+add_action( 'homepage', 'storefront_recent_products', 25 );
 add_action( 'homepage', 'storefront_featured_products', 30 );
+add_action( 'homepage', 'storefront_on_sale_products', 35 );
 add_action( 'homepage', 'storefront_product_categories', 40 );
-add_action( 'homepage', 'storefront_popular_products', 50 );
-add_action( 'homepage', 'storefront_on_sale_products', 60 );
-add_action( 'homepage', 'storefront_best_selling_products', 35 );
+
+#add_action( 'homepage', 'storefront_best_selling_products', 35 );
 
 /**
  * Layout

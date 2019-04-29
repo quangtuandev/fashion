@@ -308,7 +308,7 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 				'columns' => 5,
 				'orderby' => 'date',
 				'order'   => 'desc',
-				'title'   => __( 'Sản phẩm mới', 'storefront' ),
+				'title'   => __( 'Sản phẩm mới nhất', 'storefront' ),
 			)
 		);
 
@@ -339,12 +339,7 @@ if ( ! function_exists( 'storefront_recent_products' ) ) {
 
 			do_action( 'storefront_homepage_after_recent_products' );
 
-			echo '</section></main></div></div>';
-
-		
-			dynamic_sidebar( 'my-new-widget' );
-
-			echo '<div class="col-full"><div class="woocommerce"></div><div  class="content-area"><main class="site-main" role="main">';
+			echo '</section>';
 
 		}
 	}
@@ -420,7 +415,7 @@ if ( ! function_exists( 'storefront_popular_products' ) ) {
 				'columns' => 5,
 				'orderby' => 'rating',
 				'order'   => 'desc',
-				'title'   => __( 'Được yêu thích', 'storefront' ),
+				'title'   => __( 'SẢN PHẨM NỔI BẬT', 'storefront' ),
 			)
 		);
 
@@ -451,7 +446,13 @@ if ( ! function_exists( 'storefront_popular_products' ) ) {
 
 			do_action( 'storefront_homepage_after_popular_products' );
 
-			echo '</section>';
+			echo '</section></main></div></div>';
+
+		
+			dynamic_sidebar( 'my-new-widget' );
+
+			echo '<div class="col-full"><div class="woocommerce"></div><div  class="content-area"><main class="site-main" role="main">';
+
 		}
 	}
 }

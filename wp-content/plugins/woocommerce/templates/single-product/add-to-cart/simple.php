@@ -26,8 +26,8 @@ if ( ! $product->is_purchasable() ) {
 echo wc_get_stock_html( $product ); // WPCS: XSS ok.
 
 if ( $product->is_in_stock() ) : ?>
-
-<button id="myBtn">Open Modal</button>
+	<?php echo $product;?>
+<button id="myBtn">MUA NGAY</button>
 	<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 <!-- The Modal -->
@@ -37,11 +37,21 @@ if ( $product->is_in_stock() ) : ?>
   <div class="modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
-      <h2>Modal Header</h2>
+      <h2>THÔNG TIN ĐẶT HÀNG CỦA BẠN</h2>
     </div>
     <div class="modal-body">
-      <p>Some text in the Modal Body</p>
-      <p>Some other text...</p>
+		<div class="modal-body-inf">
+		<img src="<?php echo get_the_post_thumbnail_url($loop->post->ID); ?>" class="img-popup" alt=""/>
+		<div class="popup">
+		<span class="pop-title"><?php echo get_the_title($loop->post->ID); ?>
+
+				
+		</span>
+		<span class="pop-price"><?php echo $product->get_price(); ?> đ</span>
+		
+		</div>
+		
+		</div>
 
 	<form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
 		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
@@ -58,14 +68,14 @@ if ( $product->is_in_stock() ) : ?>
 		do_action( 'woocommerce_after_add_to_cart_quantity' );
 		?>
 
-		<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt"><?php echo esc_html( $product->single_add_to_cart_text() ); ?></button>
+		<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
 	</form>
     </div>
-    <div class="modal-footer">
+    <!-- <div class="modal-footer">
       <h3>Modal Footer</h3>
-    </div>
+    </div> -->
   </div>
 
 </div>
