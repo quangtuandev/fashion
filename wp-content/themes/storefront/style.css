@@ -167,7 +167,7 @@ All sizing (typography, layout, padding/margins, etc) are inspired by a modular 
  ul.fashion-social a {
      display: inline-block;
  }
- /* sp nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€šÃ‚Âi bÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­t */
+ /* sp nÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Âi bÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â¡ÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚ÂºÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã‚Â¡ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â­t */
  
  section.storefront-product-section.storefront-recent-products,
  section.storefront-product-section.storefront-popular-products,
@@ -552,6 +552,7 @@ section.related.products {clear:both;background-color: lightyellow;padding: 0 10
         margin-left: auto;
         margin-right: auto;
         max-width: 100%;
+        margin-top: 15px;
     }
     div#tab-description p {
         font-size: 14px;
@@ -707,4 +708,115 @@ span.pop-title,span.pop-price {
     clear: both;
     display: inline-block;
     margin-bottom: 10px;
+}
+.bl-order-button .ui-btn.button-add-to-cart, .ui-btn.button-add-to-cart {
+    background: url(https://www.megafashion.vn/images/bgtop.jpg);
+    border-radius: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #650101;
+    width: 275px;
+    margin-bottom: 0px;
+    margin-right: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-size: 100% auto;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.ui-btn.button-add-to-cart > span {
+    /* float: left; */
+    font-size: 10px;
+    font-weight: 400;
+    margin-top: 5px;
+    text-transform: uppercase;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}.ui-btn.button-add-to-cart > img {
+    /* margin: 0 2px -3px -24px; */
+    width: 24px;
+    display: inline-block;
+}
+.shopping_GH {
+    width: 275px;
+    margin-top: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 14px;
+    float: left;
+    color: #dad9d9;
+    background: #3853a1;
+}
+.single-product div.product .product_meta{
+    clear:both;
+}.reshoping.tab_top {
+    float: right;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    width: 375px;
+    /* height: 240px; */
+    margin-top: 20px;
+    padding: 10px;
+    background: #c1a22847;
+}.reshoping.tab_top .policysale {
+    float: left;
+    width: 360px;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 15px;
+    background: #fbf5ba;
+    padding-left: 15px;
+    list-style-type: none;
+}.reshoping.tab_top .policysale h3 {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #ffffff;
+    background: black;
+    padding: 5px 15px 3px 15px;
+    font-size: 12px;
+    position: absolute;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    margin-left: 0px;
+    /* width: 135px; */
+}
+.reshoping.tab_top .policysale .online_support {
+color: #cd2122;
+background: black;
+padding: 5px 15px 3px 15px;
+font-size: 12px;
+position: absolute;
+letter-spacing: 2px;
+margin-top: -10px;
+margin-left: 0px;
+}
+.reshoping .policysale li span {
+    background: #e3c063;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #650101;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-top: 3px;
+    border-radius: 0px;
+    float: left;
+}.reshoping .policysale li {
+    color: #222;
+    display: block;
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-left: 0px;
+    margin-right: 10px;
+    white-space: normal;
+    letter-spacing: 0.5px;
+    margin-top: -6px;
 }

@@ -38,6 +38,9 @@ global $product;
 $attachment_ids = $product->get_gallery_attachment_ids();
 
 foreach( $attachment_ids as $attachment_id ) {
-    echo $image_link = wp_get_attachment_url( $attachment_id );
+    $image_link = wp_get_attachment_url( $attachment_id );
+    ?>
+    <img src="<?php echo $image_link;?>" class="img-des" alt="" srcset=""> 
+    <?php
 }
 ?>

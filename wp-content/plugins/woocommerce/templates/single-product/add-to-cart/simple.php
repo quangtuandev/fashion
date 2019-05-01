@@ -26,8 +26,31 @@ if ( ! $product->is_purchasable() ) {
 echo wc_get_stock_html( $product ); // WPCS: XSS ok.
 
 if ( $product->is_in_stock() ) : ?>
-	<?php echo $product;?>
-<button id="myBtn">MUA NGAY</button>
+<!-- <button id="myBtn">MUA NGAY
+</button> -->
+<div class="reshoping tab_top">
+	<ul class="policysale HCM" style="margin-bottom: 0px;background: #edd47b;padding-bottom: 5px;background-size: 129% auto;">
+		<h3>Mua hàng tại Tp.HCM</h3>
+		<li class="shopping_addr_1" style="margin-top: 25px;line-height: 25px;"><span>Add 1</span><strong>Số 26 Hồ Văn Huê </strong> - Quận Phú Nhuận - <b>Tp.HCM</b></li>
+		<li style=""><i class="icon-poltick"></i>Hotline <strong>0938.228.365</strong></li>
+	</ul>
+</div>
+
+<div id="myBtn" class="ui-btn button-add-to-cart" >
+	<img src="https://www.megafashion.vn/images/add-to-cart-white.png" alt="add to cart icon">
+		Mua ngay
+		<span>Đặt mua và nhận hàng (COD) tại nhà</span>
+</div>
+
+<a target="_blank" href="https://m.me/olgafashionvn">
+<div class="shopping_GH">
+	<img style="width: 33px;float: left;margin-top: 10px;margin-left: 10px;margin-bottom: 0px;border-radius: 3px;" src="https://www.megafashion.vn/images/icon-fb-chat-des.png">
+	<b style="float: left;width: 190px;font-size: 12px;margin-left: 9px;margin-top: 10px;text-align: left;">Chat Qua Facebook</b>
+	<p style="float: left;font-size: 10px;text-transform: none;width: 190px;margin-top: 3px;margin-bottom: 10px;letter-spacing: 1px;text-align: left;margin-left: 10px;">	Hỗ trợ trực tuyến Olgafashion</p>
+</div>
+</a>
+
+
 	<?php do_action( 'woocommerce_before_add_to_cart_form' ); ?>
 
 <!-- The Modal -->
