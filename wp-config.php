@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The base configuration for WordPress
@@ -18,18 +19,20 @@
  * @package WordPress
  */
 
+define('WP_HOME','https://olgafashion.vn');
+define('WP_SITEURL','https://olgafashion.vn');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'fashion');
+define('DB_NAME', 'new_fashion');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'fashion');
 
 /** MySQL database password */
-define('DB_PASSWORD', '@zxc@123@');
+define('DB_PASSWORD', 'Zxcv@123');
 
 /** MySQL hostname */
-define('DB_HOST', '103.1.238.227');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

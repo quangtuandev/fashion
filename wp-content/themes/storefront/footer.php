@@ -10,6 +10,38 @@
 ?>
 
 		</div><!-- .col-full -->
+	<div class="site-main">
+	<section class="storefront-product-section storefront-on-sale-products" id="lookbook" aria-label="On Sale Products">
+		<div class="col-full">
+		
+		<h2 class="section-title pemission">NEWS LOOKBOOK & STYLE</h2>
+		<div class="woocommerce columns-4 ">
+			<ul class="products news-lookbook columns-4">
+			<?php $the_query = new WP_Query( 'posts_per_page=4' ); ?>
+			<?php while ($the_query -> have_posts()) : $the_query -> the_post(); ?>
+				<li class="product type-product post-113 status-publish instock product_cat-set-thun has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
+					<a href="<?php the_permalink() ?>" class="woocommerce-LoopProduct-link scale-fix woocommerce-loop-product__link">
+					<?php echo get_the_post_thumbnail( $post_id,'woocommerce_thumbnail', array( 'class' => 'attachment-woocommerce_thumbnail size-woocommerce_thumbnail' ) ); ?>
+						<!-- <img width="324" height="432" src="" alt=""> -->
+						</a>
+						<h2 class="title-post"><?php the_title(); ?></h2>
+						<div class="des-post">
+							<i>by</i>
+							<span class="author-post"><?php echo get_author_name(); ?></span>
+							<i>time</i>
+							<span class="time-post"><?php echo get_the_date(); ?></span>
+						</div>
+					</a>
+				</li>
+			<?php 
+			endwhile;
+			wp_reset_postdata();
+			?>
+			</ul>
+		</div>
+		</div>
+	</section>
+	</div><!-- site-main -->
 	</div><!-- #content -->
 
 	<?php do_action( 'storefront_before_footer' ); ?>
@@ -19,30 +51,35 @@
 
 	<footer style="
 	color:#fff;
-	background:#161415  url(http://localhost/fashion/wp-content/uploads/2019/04/cropped-bg_pc.png) repeat">
+	background:#161415  url(https://olgafashion.vn/wp-content/uploads/2019/04/bg_pc.png) repeat;background-size: cover;">
 	<div class="col-full">
 	<div class="gallery gallery-columns-4">
 		<div class="gallery-item">
 			<a href="/">
-				<img src="http://localhost/fashion/wp-content/uploads/2019/04/cropped-39146088_436894700153631_6815407783517618176_n.jpg" alt="mega logo footer">
+				<img src="https://olgafashion.vn/wp-content/uploads/2019/05/olgafashion.png" alt="olga logo footer">
 			</a>
 		</div>
 		<div class="gallery-item contact-megafashion">
 			<ul style="">
 				<div style="color: #fff;font-size: 10px;text-transform: uppercase;">Tại <b style="font-size: 16px;letter-spacing: 1px;margin-left: 10px;">Tp.Hồ Chí Minh</b></div>
 				<h3 style="width: 280px;"><i>❶</i> <span>Cửa hàng</span> Hồ Văn Huê - Tp.HCM</h3>
-				<li style="font-weight: 400; width: 280px; text-transform: uppercase;line-height: 20px;">Số <b style="font-size: 20px;letter-spacing: 1px;">26</b>  Hồ Văn Huê - Phường 9 - Quận Phú Nhuận <b>Tp.HCM</b></li>
+				<li style="font-weight: 400; width: 280px; text-transform: uppercase;line-height: 20px;">Số <b style="font-size: 20px;letter-spacing: 1px;">26</b>  Hồ Văn Huê - Phường 9 <br> Quận Phú Nhuận <b>Tp.HCM</b></li>
 				<li class="hotline-mega"><i>☏</i> → Hotline: 0938.228.365 (Call/Zalo)</li>
 			</ul>
 		</div>
 		<div class="gallery-item">
 		<ul class="megafashion-support">
 			<h3>Về Olgafashion</h3>
-			<li>- <a href="https://www.megafashion.vn/detail/news/dieu-khoan-va-dieu-kien-su-dung-khi-truy-cap-hay-mua-hang-tai--megafashion/8">Điều khoản sử dụng</a></li>
-			<li>- <a href="https://www.megafashion.vn//detail/news/chinh-sach-bao-mat-thong-tin-tai-megafashion-id6">Chính sách bảo mật thông tin</a></li><a href="https://www.megafashion.vn//detail/news/chinh-sach-bao-mat-thong-tin-tai-megafashion-id6">
-			</a><li><a href="https://www.megafashion.vn//detail/news/chinh-sach-bao-mat-thong-tin-tai-megafashion-id6">- </a><a href="https://www.megafashion.vn/detail/news/chinh-sach-van-chuyen-hang-hoa-cua-megafashion/7">Chính sách vận chuyển</a></li>
-			<li>- <a href="https://www.megafashion.vn/detail/news/chinh-sach-bao-hanh-san-pham-khi-mua-hang-tai-megafashion/9">Bảo hành và đổi trả Sản phẩm</a></li>
-			<li>→ <a href="https://www.megafashion.vn/tuyen-dung">Tuyển dụng <b>Nhiều vị trí</b></a></li>
+			<li>- <a href="https://www.megafashion.vn/detail/news/dieu-khoan-va-dieu-kien-su-dung-khi-truy-cap-hay-mua-hang-tai--megafashion/8">Điều khoản sử dụng</a>
+			</li>
+			<li>- <a href="https://www.megafashion.vn//detail/news/chinh-sach-bao-mat-thong-tin-tai-megafashion-id6">Chính sách bảo mật thông tin</a>
+			</li><a href="https://www.megafashion.vn//detail/news/chinh-sach-bao-mat-thong-tin-tai-megafashion-id6">
+			</a><li><a href="https://www.megafashion.vn//detail/news/chinh-sach-bao-mat-thong-tin-tai-megafashion-id6">- </a><a href="https://www.megafashion.vn/detail/news/chinh-sach-van-chuyen-hang-hoa-cua-megafashion/7">Chính sách vận chuyển</a>
+			</li>
+			<li>- <a href="https://www.megafashion.vn/detail/news/chinh-sach-bao-hanh-san-pham-khi-mua-hang-tai-megafashion/9">Bảo hành và đổi trả Sản phẩm</a>
+			</li>
+			<li>→ <a href="https://www.megafashion.vn/tuyen-dung">Tuyển dụng <b>Nhiều vị trí</b></a>
+			</li>
 		</ul>
 		</div>
 		<div class="gallery-item">

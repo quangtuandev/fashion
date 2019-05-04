@@ -252,8 +252,8 @@ if ( ! function_exists( 'storefront_product_categories' ) ) {
 	function storefront_product_categories( $args ) {
 		$args = apply_filters(
 			'storefront_product_categories_args', array(
-				'limit'            => 5,
-				'columns'          => 5,
+				'limit'            => 6,
+				'columns'          => 6,
 				'child_categories' => 0,
 				'orderby'          => 'name',
 				'title'            => __( 'BEST COLLETTION & FASHION ITEMS', 'storefront' ),
