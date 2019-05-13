@@ -140,3 +140,60 @@ Stack trace:
 #8 /var/www/olga/wp-admin/admin.php(156): do_action('admin_init')
 #9 /var/w in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
 
+2019-05-04T09:52:08+00:00 CRITICAL syntax error, unexpected '{' in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tc-js-templates.php on line 50
+
+2019-05-04T10:03:53+00:00 CRITICAL Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php:26
+Stack trace:
+#0 /var/www/olga/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php(8581): wc_get_template('tm-builder-star...', Array, 'tm-extra-produc...', '/var/www/olga/w...')
+#2 /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php(4808): TM_Extra_Product_Options->get_builder_display(Array, 'before', Array, '', 192, false)
+#3 /var/www/olga/wp-includes/class-wp-hook.php(286): TM_Extra_Product_Options->tm_epo_fields(192)
+#4 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/olga/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/olga/wp-content/plugins/woocommerce/tem in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php on line 26
+
+2019-05-04T10:04:05+00:00 CRITICAL Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php:26
+Stack trace:
+#0 /var/www/olga/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php(8581): wc_get_template('tm-builder-star...', Array, 'tm-extra-produc...', '/var/www/olga/w...')
+#2 /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php(4808): TM_Extra_Product_Options->get_builder_display(Array, 'before', Array, '', 192, false)
+#3 /var/www/olga/wp-includes/class-wp-hook.php(286): TM_Extra_Product_Options->tm_epo_fields(192)
+#4 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/olga/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/olga/wp-content/plugins/woocommerce/tem in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php on line 26
+
+2019-05-04T10:04:33+00:00 CRITICAL Uncaught Error: Call to a member function get_min_purchase_quantity() on null in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php:26
+Stack trace:
+#0 /var/www/olga/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php(8581): wc_get_template('tm-builder-star...', Array, 'tm-extra-produc...', '/var/www/olga/w...')
+#2 /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/class-tm-extra-product-options.php(4808): TM_Extra_Product_Options->get_builder_display(Array, 'before', Array, '', 192, false)
+#3 /var/www/olga/wp-includes/class-wp-hook.php(286): TM_Extra_Product_Options->tm_epo_fields(192)
+#4 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 /var/www/olga/wp-includes/plugin.php(453): WP_Hook->do_action(Array)
+#6 /var/www/olga/wp-content/plugins/woocommerce/tem in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/templates/tm-builder-start.php on line 26
+
+2019-05-04T12:28:53+00:00 CRITICAL Uncaught Error: Cannot access protected property TM_EPO_UPDATE_Updater::$title in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php:186
+Stack trace:
+#0 /var/www/olga/wp-includes/class-wp-hook.php(288): TM_EPO_UPDATE_Manager->tm_update_plugins(Object(stdClass))
+#1 /var/www/olga/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /var/www/olga/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /var/www/olga/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /var/www/olga/wp-admin/includes/class-wp-automatic-updater.php(385): wp_update_plugins()
+#5 /var/www/olga/wp-includes/update.php(562): WP_Automatic_Updater->run()
+#6 /var/www/olga/wp-includes/class-wp-hook.php(286): wp_maybe_auto_update('')
+#7 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/olga/wp-includes/plugin.php(453): WP_H in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
+
+2019-05-04T12:37:37+00:00 CRITICAL Uncaught Error: Cannot access protected property TM_EPO_UPDATE_Updater::$title in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php:186
+Stack trace:
+#0 /var/www/olga/wp-includes/class-wp-hook.php(288): TM_EPO_UPDATE_Manager->tm_update_plugins(Object(stdClass))
+#1 /var/www/olga/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /var/www/olga/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /var/www/olga/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /var/www/olga/wp-includes/class-wp-hook.php(286): wp_update_plugins()
+#5 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /var/www/olga/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /var/www/olga/wp-cron.php(126): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
+

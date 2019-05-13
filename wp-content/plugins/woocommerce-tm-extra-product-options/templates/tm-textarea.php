@@ -63,7 +63,7 @@ $get_default_value = apply_filters( 'wc_epo_default_value', $get_default_value, 
        data-freechars="<?php echo $freechars; ?>"
        id="<?php echo $id; ?>"
        tabindex="<?php echo $tabindex; ?>"
-       rows="5" 
+       rows="3" 
        <?php if ( !empty( $tax_obj ) ) {
 			echo 'data-tax-obj="' . $tax_obj . '" ';
 		} ?>

@@ -1,0 +1,25 @@
+2019-05-06T00:32:22+00:00 CRITICAL Uncaught Error: Cannot access protected property TM_EPO_UPDATE_Updater::$title in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php:186
+Stack trace:
+#0 /var/www/olga/wp-includes/class-wp-hook.php(288): TM_EPO_UPDATE_Manager->tm_update_plugins(Object(stdClass))
+#1 /var/www/olga/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /var/www/olga/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /var/www/olga/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /var/www/olga/wp-admin/includes/class-wp-automatic-updater.php(385): wp_update_plugins()
+#5 /var/www/olga/wp-includes/update.php(562): WP_Automatic_Updater->run()
+#6 /var/www/olga/wp-includes/class-wp-hook.php(286): wp_maybe_auto_update('')
+#7 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /var/www/olga/wp-includes/plugin.php(453): WP_H in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
+
+2019-05-06T00:34:53+00:00 CRITICAL Uncaught Error: Cannot access protected property TM_EPO_UPDATE_Updater::$title in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php:186
+Stack trace:
+#0 /var/www/olga/wp-includes/class-wp-hook.php(288): TM_EPO_UPDATE_Manager->tm_update_plugins(Object(stdClass))
+#1 /var/www/olga/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /var/www/olga/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /var/www/olga/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /var/www/olga/wp-includes/class-wp-hook.php(286): wp_update_plugins()
+#5 /var/www/olga/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#6 /var/www/olga/wp-includes/plugin.php(515): WP_Hook->do_action(Array)
+#7 /var/www/olga/wp-cron.php(126): do_action_ref_array('wp_update_plugi...', Array)
+#8 {main}
+  thrown in /var/www/olga/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
+

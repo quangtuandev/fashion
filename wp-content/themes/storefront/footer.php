@@ -11,10 +11,11 @@
 
 		</div><!-- .col-full -->
 	<div class="site-main">
+	<?php	if(is_front_page() == true || is_home() == true){ ?>
 	<section class="storefront-product-section storefront-on-sale-products" id="lookbook" aria-label="On Sale Products">
 		<div class="col-full">
 		
-		<h2 class="section-title pemission">NEWS LOOKBOOK & STYLE</h2>
+		<h2 class="site-title-lookbook">NEWS LOOKBOOK & STYLE</h2>
 		<div class="woocommerce columns-4 ">
 			<ul class="products news-lookbook columns-4">
 			<?php $the_query = new WP_Query( 'posts_per_page=4' ); ?>
@@ -43,7 +44,7 @@
 	</section>
 	</div><!-- site-main -->
 	</div><!-- #content -->
-
+	<?php } ?>
 	<?php do_action( 'storefront_before_footer' ); ?>
 
 	<!-- <footer id="colophon" class="site-footer" role="contentinfo"> -->

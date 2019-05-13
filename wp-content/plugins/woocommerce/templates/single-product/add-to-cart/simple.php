@@ -60,24 +60,22 @@ if ( $product->is_in_stock() ) : ?>
   <div class="modal-content">
     <div class="modal-header">
       <span class="close">&times;</span>
-      <h2>THÔNG TIN ĐẶT HÀNG CỦA BẠN</h2>
-    </div>
+	</div>
+	<div class="title-pop-header">
+		<h2 class="pop-title-main">THÔNG TIN ĐẶT HÀNG CỦA BẠN</h2>
+	</div>
     <div class="modal-body">
 		<div class="modal-body-inf">
-		<img src="<?php echo get_the_post_thumbnail_url($loop->post->ID); ?>" class="img-popup" alt=""/>
-		<div class="popup">
-		<span class="pop-title"><?php echo get_the_title($loop->post->ID); ?>
-
-				
-		</span>
-		<span class="pop-price"><?php echo $product->get_price(); ?> đ</span>
-		
+			<img src="<?php echo get_the_post_thumbnail_url($loop->post->ID); ?>" class="img-popup" alt=""/>
+			<div class="popup">
+				<span class="pop-title"><?php echo get_the_title($loop->post->ID); ?></span>
+				<span class="pop-price"><?php echo $product->get_price(); ?> đ</span>
+			</div>
+			
 		</div>
-		
-		</div>
-
+		<div class="text-plus"><span>Hãy cho Olgafashion biết thêm về thông tin đơn hàng</span></div>
 	<form class="cart" action="<?php echo esc_url( apply_filters( 'woocommerce_add_to_cart_form_action', $product->get_permalink() ) ); ?>" method="post" enctype='multipart/form-data'>
-		<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
+		
 
 		<?php
 		do_action( 'woocommerce_before_add_to_cart_quantity' );
@@ -90,7 +88,7 @@ if ( $product->is_in_stock() ) : ?>
 
 		do_action( 'woocommerce_after_add_to_cart_quantity' );
 		?>
-
+<?php do_action( 'woocommerce_before_add_to_cart_button' ); ?>
 		<button type="submit" name="add-to-cart" value="<?php echo esc_attr( $product->get_id() ); ?>" class="single_add_to_cart_button button alt">Thêm vào giỏ hàng</button>
 
 		<?php do_action( 'woocommerce_after_add_to_cart_button' ); ?>
