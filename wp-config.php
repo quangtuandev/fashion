@@ -26,10 +26,10 @@ define('WP_SITEURL','https://olgafashion.vn');
 define('DB_NAME', 'new_fashion');
 
 /** MySQL database username */
-define('DB_USER', 'fashion');
+define('DB_USER', 'olga');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'Zxcv@123');
+define('DB_PASSWORD', 'olga@xxx');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -83,6 +83,8 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 define('FS_METHOD', 'direct');
 define('ALLOW_UNFILTERED_UPLOADS', true);
+define('WP_MEMORY_LIMIT', '64M');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
