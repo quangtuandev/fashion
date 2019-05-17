@@ -1,0 +1,23 @@
+2019-05-17T11:30:03+00:00 CRITICAL Uncaught Error: Call to undefined function is_single_page() in /var/www/html/fashion/wp-content/themes/storefront/footer.php:14
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/template.php(688): require_once()
+#1 /var/www/html/fashion/wp-includes/template.php(647): load_template('/var/www/html/f...', true)
+#2 /var/www/html/fashion/wp-includes/general-template.php(76): locate_template(Array, true)
+#3 /var/www/html/fashion/wp-content/themes/storefront/single.php(31): get_footer()
+#4 /var/www/html/fashion/wp-includes/template-loader.php(74): include('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-blog-header.php(19): require_once('/var/www/html/f...')
+#6 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#7 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/footer.php on line 14
+
+2019-05-17T11:30:05+00:00 CRITICAL Uncaught Error: Cannot access protected property TM_EPO_UPDATE_Updater::$title in /var/www/html/fashion/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php:186
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/class-wp-hook.php(288): TM_EPO_UPDATE_Manager->tm_update_plugins(Object(stdClass))
+#1 /var/www/html/fashion/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /var/www/html/fashion/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /var/www/html/fashion/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /var/www/html/fashion/wp-admin/includes/class-wp-automatic-updater.php(385): wp_update_plugins()
+#5 /var/www/html/fashion/wp-includes/update.php(562): WP_Automatic_Updater->run()
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_maybe_auto_update('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->app in /var/www/html/fashion/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
+

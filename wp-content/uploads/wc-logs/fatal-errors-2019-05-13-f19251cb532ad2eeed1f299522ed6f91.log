@@ -1,0 +1,10 @@
+2019-05-13T12:31:12+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-login.php(12): require('/var/www/html/f...')
+#5 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+

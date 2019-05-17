@@ -19,17 +19,15 @@
  * @package WordPress
  */
 
-define('WP_HOME','https://olgafashion.vn');
-define('WP_SITEURL','https://olgafashion.vn');
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'new_fashion');
+define('DB_NAME', 'fashion');
 
 /** MySQL database username */
-define('DB_USER', 'olga');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'olga@xxx');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -83,8 +81,6 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 define('FS_METHOD', 'direct');
 define('ALLOW_UNFILTERED_UPLOADS', true);
-define('WP_MEMORY_LIMIT', '64M');
-
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
