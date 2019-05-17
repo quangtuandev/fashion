@@ -11,7 +11,7 @@
 
 		</div><!-- .col-full -->
 	<div class="site-main">
-	<?php	if(is_front_page() == true || is_home() == true || is_single() ==true){ ?>
+	<?php	if(is_front_page() == true || is_home() == true ){ ?>
 	<section class="storefront-product-section storefront-on-sale-products" id="lookbook" aria-label="On Sale Products">
 		<div class="col-full">
 		
