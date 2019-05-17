@@ -1,0 +1,319 @@
+2019-05-14T05:39:49+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(13): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:40:16+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(13): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:41:00+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(13): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:43:54+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:49:10+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:49:26+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:51:08+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:51:22+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:51:23+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:51:23+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:51:24+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:11+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-blog-header.php(12): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/index.php(17): require('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:23+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:25+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:26+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:26+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:26+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:27+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:27+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:27+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:27+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:28+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:28+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:28+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:28+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:29+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:52:29+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T05:53:37+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in /var/www/html/fashion/wp-content/themes/storefront/functions.php:78
+Stack trace:
+#0 /var/www/html/fashion/wp-content/themes/storefront/functions.php(110): file_get_contents_tcurl('http://www.uaro...')
+#1 /var/www/html/fashion/wp-settings.php(426): include('/var/www/html/f...')
+#2 /var/www/html/fashion/wp-config.php(90): require_once('/var/www/html/f...')
+#3 /var/www/html/fashion/wp-load.php(37): require_once('/var/www/html/f...')
+#4 /var/www/html/fashion/wp-admin/admin.php(31): require_once('/var/www/html/f...')
+#5 /var/www/html/fashion/wp-admin/index.php(10): require_once('/var/www/html/f...')
+#6 {main}
+  thrown in /var/www/html/fashion/wp-content/themes/storefront/functions.php on line 78
+
+2019-05-14T15:41:29+00:00 CRITICAL Uncaught Error: Cannot access protected property TM_EPO_UPDATE_Updater::$title in /var/www/html/fashion/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php:186
+Stack trace:
+#0 /var/www/html/fashion/wp-includes/class-wp-hook.php(288): TM_EPO_UPDATE_Manager->tm_update_plugins(Object(stdClass))
+#1 /var/www/html/fashion/wp-includes/plugin.php(203): WP_Hook->apply_filters(Object(stdClass), Array)
+#2 /var/www/html/fashion/wp-includes/option.php(1750): apply_filters('pre_set_site_tr...', Object(stdClass), 'update_plugins')
+#3 /var/www/html/fashion/wp-includes/update.php(296): set_site_transient('update_plugins', Object(stdClass))
+#4 /var/www/html/fashion/wp-admin/includes/class-wp-automatic-updater.php(385): wp_update_plugins()
+#5 /var/www/html/fashion/wp-includes/update.php(562): WP_Automatic_Updater->run()
+#6 /var/www/html/fashion/wp-includes/class-wp-hook.php(286): wp_maybe_auto_update('')
+#7 /var/www/html/fashion/wp-includes/class-wp-hook.php(310): WP_Hook->app in /var/www/html/fashion/wp-content/plugins/woocommerce-tm-extra-product-options/include/classes/class-tm-epo-update-updater.php on line 186
+
